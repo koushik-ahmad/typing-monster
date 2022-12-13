@@ -35,13 +35,11 @@
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                 aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall
-                    appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                    custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                    go
-                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    The difference between sessionStorage and localStorage is that localStorage data does not expire,
+                    whereas sessionStorage
+                    data is cleared when the page session ends. A unique page session gets created once a document is
+                    loaded in a browser
+                    tab. Page sessions are valid for only one tab at a time.
                 </div>
             </div>
         </div>
@@ -50,20 +48,17 @@
                 <button class="accordion-button collapsed text-success text-bg-dark" type="button"
                     data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseTwo">
-                    02.Question:
+                    02.Question: What's the difference between global scope and block scope?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall
-                    appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                    custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                    go
-                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    JavaScript variables have only two scopes.
+                    Global Variables − A global variable has a global scope which means it can be defined anywhere in
+                    your JavaScript code.
+                    Local Variables − A local variable will be visible only within a function where it is defined.
+                    Function parameters are always local to that function.
                 </div>
             </div>
         </div>
@@ -72,20 +67,51 @@
                 <button class="accordion-button collapsed text-success text-bg-dark" type="button"
                     data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree">
-                    03.Question:
+                    03.Question: What is JavaScript event loop?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall
-                    appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                    custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                    go
-                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all
+                    operations on a single
+                    thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s
+                    take a look at what
+                    happens on the back-end. JavaScript has a runtime model based on an event loop, which is responsible
+                    for executing the code, collecting and processing events, and executing queued sub-tasks.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item text-white text-bg-dark">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed text-success text-bg-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour">
+                    04.Question: How many undefined we get in JavaScript?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                    Undefined means, value of the variable is not defined. JavaScript has a global variable undefined
+                    whose value is
+                    "undefined" and typeof undefined is also "undefined". Remember, undefined is not a constant or a
+                    keyword. undefined is a
+                    type with exactly one value: undefined. Assigning a new value to it does not change the value of the
+                    type undefined.
+                    <br>
+                    8 Ways to get Undefined:
+                    <br>
+                    <ul>
+                        <li>A declared variable without assigning any value to it.</li>
+                        <li>Implicit returns of functions due to missing return statements.</li>
+                        <li>return statements that do not explicitly return anything.</li>
+                        <li>Lookups of non-existent properties in an object.</li>
+                        <li>Function parameters that have not passed.</li>
+                        <li>Anything that has been set to the value of undefined.</li>
+                        <li>Any expression in the form of void(expression)</li>
+                        <li>The value of the global variable undefined</li>
+                    </ul>
                 </div>
             </div>
         </div>
