@@ -11,6 +11,22 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+#head {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 10px 10px 25px;
+  font-weight: bold;
+  width: 115px;
+  height: 60px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #9dffad;
+}
+#link {
+  text-decoration: none;
+  color: white;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
